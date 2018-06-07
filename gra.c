@@ -1,1 +1,1 @@
-#include <stdlib.h>#include <stdio.h>int main(){		return 0;}
+#include <stdlib.h>#include <stdio.h>#include <conio.h>void start(){	printf("\n		Witamy w grze a'la Space Invators\n\n");	printf("		Gra kultowa, zasady raczej kazdy zna\n\n");	printf("		Sterowanie:\n		Poruszanie sie: 'A' i 'D'\n		strzelanie: 'W'");	printf("\n\n		Wcisnij dowolny przycisk by rozpoczac");	getch();	system("cls");}int main(){		start();		return 0;}
